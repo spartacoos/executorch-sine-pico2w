@@ -1,0 +1,25 @@
+# Build artifacts
+build/
+*.uf2
+
+# Toolchains (downloaded by bootstrap.py)
+toolchains/
+
+# Generated files
+sine_model.pte
+env.sh
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.python-version
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
