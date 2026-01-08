@@ -463,7 +463,7 @@ train_and_export.py                    build_firmware.py
 
 ```bash
 # Step 1: Bootstrap environment and toolchain
-python3 bootstrap.py
+uv run python bootstrap.py
 
 # Step 2: Train model and export to .pte
 uv run python train_and_export.py
